@@ -24,3 +24,12 @@ function darkMode(){
 
     document.documentElement.setAttribute('data-theme', target);
 }
+
+// Ham Menu
+
+function toggleHam(){
+
+    let appear = document.getElementsByClassName('main-nav');
+    appear[0].classList.toggle("active-menu");
+
+}
