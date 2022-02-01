@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme='dark'>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assests/css/dist/main.css">
+    <link rel="stylesheet" href="./assets/css/dist/main.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -23,7 +23,7 @@
             </div>
             <div class="main-nav__mode">
                 <div class="mode-container">
-                    <div class="mode-container__item" onclick="changeMode()">
+                    <div class="mode-container__item" onclick="changeMode();darkMode()">
                         <div class="mode-container__item--ball"></div>
                     </div>
                 </div>
@@ -31,16 +31,23 @@
         </div>
         <div class="main-header">
             <div class="main-header__content">
-                <div class="content-head">
-                    <div class="content-head__text">Welcome To My</div>
-                    <div class="content-head__text">Portfolio</div>
+                <div class="content__sideMenu">
+                    <div class="sideMenu-home"></div>
+                    <div class="sideMenu-projects"></div>
+                    <div class="sideMenu-contact"></div>
                 </div>
                 <div class="content-head">
-                   
+                    <div class="content-head--text">Hi,</div>
+                    <div class="content-head--text">I'm Pablo</div>
+                    <div class="content-head--text">back-end developer.</div>
+                    <div class="content-head--text">Back End Developer / AI Enthusiast / Programming Fanatic</div>
+                    <div class="content-head__button">
+                        <div class="main-button">Contact Me</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
-<script src="./assests/js/app.js"></script>
+<script src="./assets/js/app.js"></script>
 </html>
