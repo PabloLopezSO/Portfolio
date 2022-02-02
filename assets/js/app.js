@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 //DARK MODE
 
@@ -33,8 +33,7 @@ function toggleHam(){
     let appear = document.getElementsByClassName('main-nav');
     appear[0].classList.toggle("active-menu");
 
-=======
-
+}
 //DARK MODE
 
 function changeMode(){
@@ -68,5 +67,4 @@ function toggleHam(){
     let appear = document.getElementsByClassName('main-nav');
     appear[0].classList.toggle("active-menu");
 
->>>>>>> 7a1224a0c11a80dba54dd5c0f724e63599873489
 }
