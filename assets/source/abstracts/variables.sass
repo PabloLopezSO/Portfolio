@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Base Colors
 \:root
     --background: #121212
@@ -42,4 +43,50 @@ html[data-theme='dark']
 //Toggle Ham
 .active-menu
     transition: .4s 
+=======
+//Base Colors
+\:root
+    --background: #121212
+    --surface: #1d1d1d
+    --primary: #bb86fc
+    --secondary: #03dac6
+    --on-background: #cdcdcd
+    --on-surface: #e0e0e0
+    --on-primary: #2a1e37
+    --on-secondary: #000403
+
+//Dark Mode  
+html[data-theme='light']
+    --background: #ffff
+    --surface: #f5f5f5
+    --primary: #6200ee
+    --secondary: #3700b3
+    --on-background: #1c1c1c
+    --on-surface: #1c1c1c
+    --on-primary: #2a1e37
+    --on-secondary: #000403
+
+html[data-theme='dark']
+    --background: #121212
+    --surface: #1d1d1d
+    --primary: #bb86fc
+    --secondary: #03dac6
+    --on-background: #cdcdcd
+    --on-surface: #e0e0e0
+    --on-primary: #2a1e37
+    --on-secondary: #000403
+
+//Button to change between dark and light mode
+.changeMode
+    transform: translateX(0px) !important
+    transition: .3s
+    background: #fff !important
+.changeColor
+    transition: .3s
+    background: #303F9F !important
+
+//Toggle Ham
+.active-menu
+    transition: .4s 
+>>>>>>> 7a1224a0c11a80dba54dd5c0f724e63599873489
     transform: translateX(0px) !important
