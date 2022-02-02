@@ -68,3 +68,19 @@ function toggleHam(){
     appear[0].classList.toggle("active-menu");
 
 }
+
+
+
+const swiper = new Swiper('.swiper', {
+
+    direction: 'vertical',
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    mousewheel: {
+        releaseOnEdges: true,
+    }
+
+  });

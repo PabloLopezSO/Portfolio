@@ -396,6 +396,9 @@ html[data-theme='dark'] {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
+  * body {
+    overflow-x: hidden;
+    background: var(--background); }
 
 .main-button {
   display: flex;
@@ -416,7 +419,9 @@ html[data-theme='dark'] {
 .main-nav {
   display: flex;
   height: 4rem;
-  width: 100%; }
+  width: 100%;
+  position: fixed;
+  z-index: 2 !important; }
   .main-nav .main-nav__logo {
     display: flex;
     justify-content: center;
@@ -501,7 +506,8 @@ html[data-theme='dark'] {
     width: 5%;
     left: 0;
     top: 0;
-    position: fixed; }
+    position: fixed;
+    z-index: 2 !important; }
     .main-header__content .content__sideMenu .sideMenu-ham {
       display: none;
       position: absolute;
@@ -593,5 +599,61 @@ html[data-theme='dark'] {
       height: 4rem;
       width: 10rem;
       margin: 10px 26px; }
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 99vw;
+  margin: 20px 0px 0px 0px; }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: var(--background);
+  z-index: 0 !important; }
+  .swiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .swiper .slide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    background: var(--background); }
+    .swiper .slide-container .slide-container__box:nth-child(1) {
+      display: flex;
+      flex-flow: column;
+      color: var(--on-surface);
+      font-family: "Roboto", sans-serif;
+      height: 100%;
+      width: 55%; }
+      .swiper .slide-container .slide-container__box:nth-child(1) .container-box__head {
+        display: flex;
+        margin: auto auto 0px 200px;
+        height: 10%;
+        width: 70%;
+        font-size: 60px; }
+      .swiper .slide-container .slide-container__box:nth-child(1) .container-box__text {
+        display: flex;
+        flex-flow: column;
+        margin: 20px auto auto 205px;
+        height: 40%;
+        width: 55%; }
+        .swiper .slide-container .slide-container__box:nth-child(1) .container-box__text .box-text {
+          margin: 6px 0px; }
+    .swiper .slide-container .slide-container__box:nth-child(2) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 45%; }
+      .swiper .slide-container .slide-container__box:nth-child(2) .box-img {
+        height: 90%;
+        width: 90%;
+        background: lightblue; }
 
 /*# sourceMappingURL=main.css.map */
