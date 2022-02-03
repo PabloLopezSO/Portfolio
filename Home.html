@@ -10,7 +10,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="main-container">
+    <div class="main-container" id="up">
         <div class="main-nav">
             <div class="main-nav__logo">
                 <div class="logo-container"></div>
@@ -53,6 +53,7 @@
                 </div>
             </div>
         </div>
+        <div class="button-down" onclick="buttonSmooth('down')"></div>
     </div>
     <div class="content-container">
              <!-- CONTENT -->
@@ -73,11 +74,41 @@
                     </div>
                  </div>
             </div>
-            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">
+                <div class="slide-container">
+                    <div class="slide-container__box">
+                        <div class="container-box__head">My Skills</div>
+                        <div class="container-box__text">
+                            <div class="box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab debitis molestias. Eaque, soluta ex? Molestias sit ipsam repellendus nostrum minima minus qui voluptate reprehenderit natus laudantium. Exercitationem, sit vero?</div>
+                            <div class="box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab debitis molestias. Eaque, soluta ex? Molestias sit ipsam repellendus nostrum minima minus qui voluptate reprehenderit natus laudantium. Exercitationem, sit vero?</div>
+                            <div class="box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab debitis molestias. Eaque, soluta ex? Molestias sit ipsam repellendus nostrum minima minus qui voluptate reprehenderit natus laudantium. Exercitationem, sit vero?</div>
+                        </div>
+                    </div>
+                    <div class="slide-container__box">
+                        <div class="box-skill">
+                            <div class="box-skill__set">
+                                <p>Java</p>
+                                <div class="set-slide" id="Skill-first"></div>
+                                <p>C++</p>
+                                <div class="set-slide" id="Skill-second"></div>
+                                <p>C#</p>
+                                <div class="set-slide" id="Skill-third"></div>
+                                <p>Python</p>
+                                <div class="set-slide" id="Skill-forth"></div>
+                                <p>Mysql</p>
+                                <div class="set-slide" id="Skill-fifth"></div>
+                            </div>
+                            
+                        </div>
+                        <div class="box-skill"></div>
+                    </div>
+                 </div>
+            </div>
             <div class="swiper-slide">Slide 3</div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
+        <div class="button-up" onclick="buttonSmooth('up')" id="down"></div>
     </div>
 </body>
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
