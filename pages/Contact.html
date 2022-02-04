@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-theme='dark'>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/dist/main.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="main-container" id="up">
+        <div class="main-nav">
+            <div class="main-nav__logo">
+                <div class="logo-container"></div>
+            </div>
+            <div class="main-nav__menu">
+                <div class="menu-container">
+                    <a class="menu-container__link" href="../Home.html">Home</a>
+                    <a class="menu-container__link" href="./pages/Projects.html">Projects</a>
+                    <a class="menu-container__link" href="./pages/Contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="main-nav__mode">
+                <div class="mode-container">
+                    <div class="mode-container__item" onclick="changeMode();darkMode()">
+                        <div class="mode-container__item--ball"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="main-header__content">
+                <div class="content__sideMenu">
+                    <div class="sideMenu-ham" onclick="toggleHam()">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <a href="../Home.html" class="sideMenu-home"></a>
+                    <a href="./pages/Projects.html"  class="sideMenu-projects"></a>
+                    <a href="./Contact.html" class="sideMenu-contact"></a>
+                </div>
+            <div class="contact-content">
+                <div class="contact-head">
+                    HAVE SOME QUESTIONS?
+                </div>
+                <div class="contact-img">
+                    <div class="contact-img__box"></div>
+                </div>
+                <div class="contact-form">
+                    <input class="form-control" type="text" placeholder="First Name" id="name">
+                    <input class="form-control" type="text" placeholder="Surname" id="surname">
+                    <input class="form-control" type="text" placeholder="subject" id="subject">
+                    <textarea class="form-control" placeholder="message" id="message" cols="30" rows="10"></textarea>
+                    <div class="contact-button" onclick="sendMail()">
+                        <div class="main-button">Contact Me</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+</div>
+</body>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="../assets/js/app.js"></script>
+</html>

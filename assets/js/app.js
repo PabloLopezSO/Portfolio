@@ -54,3 +54,11 @@ const swiper = new Swiper('.swiper', {
 function buttonSmooth(content){
     document.getElementById(content).scrollIntoView({behavior: 'smooth'});
 }
+
+// SendMail
+
+function sendMail() {
+    let subject = document.querySelectorAll('#subject')[0].value;
+    let message = document.querySelectorAll('#message')[0].value;
+    window.location = "mailto:falseMail@falseMail.com?subject="+subject+"&body="+message;
+}
