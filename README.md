@@ -12,7 +12,8 @@ Pretty much, that's the basic structure of this portfolio.
 ### Home Page
   * It's the "Fancy" part of the page, It has a brief introduction, some of my programming skills will be shown below, studies ...
   * One button to have a direct contact
-  * Maybe to switch between content It will have some cool animation (For the moment it's an idea)
+  * Sliders to add "coolness"
+ 
 
 ### Projects Page
  * It has some sliders, so the user can slide and adds more "coolness"
