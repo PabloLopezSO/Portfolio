@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme='dark'>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/dist/main.css">
+    <title>Projects</title>
+</head>
+<body onload="swiperVertical()">
+    <div class="main-container" id="up">
+        <div class="main-nav">
+            <div class="main-nav__logo">
+                <div class="logo-container"></div>
+            </div>
+            <div class="main-nav__menu">
+                <div class="menu-container">
+                    <a class="menu-container__link" href="../Home.html">Home</a>
+                    <a class="menu-container__link" href="./Projects.html">Projects</a>
+                    <a class="menu-container__link" href="./Contact.html">Contact</a>
+                    <a class="menu-container__link" href="https://github.com/PabloLopezSO">GitHub</a>
+                    <a href="https://github.com/PabloLopezSO" class="sideMenu-git"></a>
+                </div>
+            </div>
+            <div class="main-nav__mode">
+                <div class="mode-container">
+                    <div class="mode-container__item" onclick="changeMode();darkMode()">
+                        <div class="mode-container__item--ball"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="main-header__content">
+                <div class="content__sideMenu">
+                    <div class="sideMenu-ham" onclick="toggleHam()">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <a href="../Home.html" class="sideMenu-home"></a>
+                    <a href="./Projects.html"  class="sideMenu-projects"></a>
+                    <a href="./Contact.html" class="sideMenu-contact"></a>
+                    <a href="https://github.com/PabloLopezSO" class="sideMenu-git"></a>
+                </div>
+                <div class="content-head">
+                    <div class="content-head--text">Hello There,</div>
+                    <div class="content-head--text">This are,</div>
+                    <div class="content-head--text">my Projects.</div>
+                    <div class="content-head--text">Back End Developer / AI Enthusiast / Programming Fanatic</div>
+                    <a href="./Contact.html" class="content-head__button">
+                        <div class="main-button">Contact Me</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="button-wrapper">
+            <div class="button-down" onclick="buttonSmooth('down')"></div>
+        </div>
+    </div>
+
+    <div class="projects-content">
+        <!-- CONTENT -->
+   <div class="swiper">
+     <div class="swiper-wrapper">
+       <div class="swiper-slide">
+           <div class="slide-container">
+               <div class="slide-container__box">
+                   <div class="container-box__head">Credit Card Checker</div>
+                   <div class="container-box__text">
+                       <div class="box-text">This Project Has been done on JS, It`s a Project from CodeCademy.</div>
+                       <div class="box-text">You can see the code by clicking on this image or you can do it from GitHub icon</div>
+                   </div>
+               </div>
+               <div class="slide-container__box">
+                   <a href="https://github.com/PabloLopezSO/creditCardChecker-Codecademy" class="box-img"></a>
+               </div>
+            </div>
+       </div>
+       <div class="swiper-slide">
+        <div class="slide-container">
+            <div class="slide-container__box">
+                <div class="container-box__head">Mysterious Organism</div>
+                <div class="container-box__text">
+                    <div class="box-text">This Project Has been done on JS, It`s a Project from CodeCademy.</div>
+                    <div class="box-text">You can see the code by clicking on this image or you can do it from GitHub icon</div>
+                </div>
+            </div>
+            <div class="slide-container__box">
+                <a href="https://github.com/PabloLopezSO/mysteriousOrganism-Codecademy" class="box-img"></a>
+            </div>
+         </div>
+       </div>
+       <div class="swiper-slide">
+        <div class="slide-container">
+            <div class="slide-container__box">
+                <div class="container-box__head">Number Guesser</div>
+                <div class="container-box__text">
+                    <div class="box-text">This Project Has been done on JS, It`s a Project from CodeCademy.</div>
+                    <div class="box-text">You can see the code by clicking on this image or you can do it from GitHub icon</div>
+                </div>
+            </div>
+            <div class="slide-container__box">
+                <a href="https://github.com/PabloLopezSO/numberGuesser-Codecademy" class="box-img"></a>
+            </div>
+         </div>
+       </div>
+   </div>
+       <div class="swiper-pagination"></div>
+   </div>
+   <div class="button-wrapper">
+       <div class="button-up" onclick="buttonSmooth('up')" id="down"></div>
+   </div>
+</div>
+</body>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="../assets/js/app.js"></script>
+</html>

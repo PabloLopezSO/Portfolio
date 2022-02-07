@@ -19,7 +19,7 @@ function darkMode(){
     if (theme === "dark") {
         
         target = "light";
-       logo[0].style.backgroundImage="url(assets/img/logol.png)";
+       logo[0].style.backgroundImage="url(../assets/img/logol.png)";
 
     } 
 
@@ -31,10 +31,13 @@ function darkMode(){
 function toggleHam(){
 
     let appear = document.getElementsByClassName('main-nav');
+    let ham = document.getElementsByClassName('sideMenu-ham');
     appear[0].classList.toggle("active-menu");
+    ham[0].classList.toggle("open");
 
 }
-
+function swiperVertical() {
+    
 const swiper = new Swiper('.swiper', {
 
     direction: 'vertical',
@@ -48,6 +51,7 @@ const swiper = new Swiper('.swiper', {
     }
 
   });
+}
 
 // Button
 

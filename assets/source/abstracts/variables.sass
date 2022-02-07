@@ -44,6 +44,29 @@ html[data-theme='dark']
     transition: .4s 
     transform: translateX(0px) !important
 
+
+.sideMenu-ham.open .line:nth-child(1) 
+    -webkit-transform: rotate(45deg)
+    -moz-transform: rotate(45deg)
+    -o-transform: rotate(45deg)
+    transform: rotate(45deg)
+    top: 10px
+    left: 0px
+
+
+.sideMenu-ham.open .line:nth-child(2) 
+    width: 0%
+    opacity: 0
+
+
+.sideMenu-ham.open .line:nth-child(3) 
+    -webkit-transform: rotate(-45deg)
+    -moz-transform: rotate(-45deg)
+    -o-transform: rotate(-45deg)
+    transform: rotate(-45deg) translateX(0px)
+    top: -10px
+    left: 0px
+
 //Animation
 
 @-webkit-keyframes jello-vertical 
