@@ -934,7 +934,7 @@ body {
   margin: auto;
   width: 70px;
   height: 70px;
-  background: url("https://cdn-icons.flaticon.com/png/512/5255/premium/5255051.png?token=exp=1643883958~hmac=d2895544ea7833a4cece551261ad2c9c");
+  background: url("../../img/down-arrow.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -946,7 +946,7 @@ body {
   margin: 0px auto 20px auto;
   width: 70px;
   height: 70px;
-  background: url("https://cdn-icons.flaticon.com/png/512/5817/premium/5817906.png?token=exp=1643889644~hmac=d8c74944b46665f59a3c3260437c28d5");
+  background: url("../../img/up-arrow.png");
   background-position: center;
   background-size: 90%;
   background-repeat: no-repeat;
