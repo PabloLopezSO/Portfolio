@@ -137,6 +137,9 @@ html[data-theme='dark'] {
     -webkit-transform: translateX(8px) translateY(8px);
     transform: translateX(8px) translateY(8px); } }
 @media only screen and (min-width: 320px) and (max-width: 374px) {
+  body {
+    overflow-y: visible !important; }
+
   .main-nav {
     display: flex;
     flex-flow: column;
@@ -240,6 +243,9 @@ html[data-theme='dark'] {
     .contact-content .contact-button {
       width: 80% !important; } }
 @media only screen and (min-width: 375px) and (max-width: 424px) {
+  body {
+    overflow-y: visible !important; }
+
   .main-nav {
     display: flex;
     flex-flow: column;
@@ -343,6 +349,9 @@ html[data-theme='dark'] {
     .contact-content .contact-button {
       width: 80% !important; } }
 @media only screen and (min-width: 425px) and (max-width: 767px) {
+  body {
+    overflow-y: visible !important; }
+
   .main-nav {
     display: flex;
     flex-flow: column;
@@ -446,6 +455,9 @@ html[data-theme='dark'] {
     .contact-content .contact-button {
       width: 80% !important; } }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    overflow-y: visible !important; }
+
   .main-nav {
     display: flex;
     position: fixed;
@@ -524,6 +536,9 @@ html[data-theme='dark'] {
       font-size: 28px !important;
       margin: 0px 0px 0px 90px !important; } }
 @media only screen and (min-width: 1024px) and (max-width: 1399px) {
+  body {
+    overflow-y: visible !important; }
+
   .main-nav {
     display: flex;
     position: fixed;
@@ -869,7 +884,7 @@ body {
     .main-header__content .content__sideMenu .sideMenu-git {
       height: 25px;
       width: 25px;
-      background-image: url("https://cdn-user-icons.flaticon.com/63943/63943331/1644233813873.svg?token=exp=1644234726~hmac=d89bfd24a9dc3bfc2635ad0e710ac9a8");
+      background-image: url("../../img/github.png");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;

@@ -19,7 +19,7 @@ function darkMode(){
     if (theme === "dark") {
         
         target = "light";
-       logo[0].style.backgroundImage="url(../assets/img/logol.png)";
+       logo[0].style.backgroundImage="url(./assets/img/logol.png)";
 
     } 
 
