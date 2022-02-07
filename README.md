@@ -15,12 +15,10 @@ Pretty much, that's the basic structure of this portfolio.
   * Maybe to switch between content It will have some cool animation (For the moment it's an idea)
 
 ### Projects Page
-
  * It has some sliders, so the user can slide and adds more "coolness"
  * Each project links to the repository of the project
  
 ### Contact
- 
  * It has a form to ask for anything
  * The contact button instant saves the subject and text of the form, so the user only has to click on "send"
  
