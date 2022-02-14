@@ -12,19 +12,21 @@ Pretty much, that's the basic structure of this portfolio.
 ### Home Page
   * It's the "Fancy" part of the page, It has a brief introduction, some of my programming skills will be shown below, studies ...
   * One button to have a direct contact
-  * Maybe to switch between content It will have some cool animation (For the moment it's an idea)
+  * Sliders to add "coolness"
+ 
 
 ### Projects Page
- Currently, on development
+ * It has some sliders, so the user can slide and adds more "coolness"
+ * Each project links to the repository of the project
  
 ### Contact
- Currently, on development
+ * It has a form to ask for anything
+ * The contact button instant saves the subject and text of the form, so the user only has to click on "send"
  
 ## Technologies used
   * The basics HTML, CSS, JS
   * Using sass for CSS
-  * Probably going to use swiper.js or some frameworks like that …
-  * Maybe I'll use some three.js for some 3D animations
-These are just suggestions, right now
-
+  * Swiper.js for the sliders
+  * Bootstrap for the form
+ 
 ![alt text](https://i.imgur.com/LPki9n3.jpg)
